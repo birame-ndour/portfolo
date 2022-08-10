@@ -1,0 +1,195 @@
+*{
+    margin:0px;
+    padding:0px;
+   box-sizing: border-box;
+   
+  }
+  body{
+    margin: 0px;
+    font-size: 2Opx;
+  }
+ 
+#menu {
+  display: flex;
+    background-color: rgb(170, 160, 248);
+   width: 100%;
+    text-align: center;
+    justify-content: space-between;
+   padding: 2rem 5rem;
+   align-items: center;
+   position: fixed;
+   font-size: 20px; 
+  }
+  main{
+    background-color:(251, 251, 251);
+  }
+  menu:hover{
+ color: rgb(16, 1, 1)
+  }
+  #menu a{
+    list-style-type:none;
+    text-decoration: none;
+    color: black;
+  }
+  #menu ul {
+    display: flex;
+  
+  }
+   #menu ul li{
+margin-left: 4rem;
+color:rgb(243, 236, 236);
+list-style-type: none;
+  }
+  .header img{
+    width :100%;
+    height: 40rem;
+  }
+  .banner-text{
+    position: absolute;
+    top: 43%;
+    padding: 10px;
+    
+  }
+  .banner-text h2{
+    font-size: 30px;
+    margin-left: 150px;
+    
+  }
+  .apropos{
+    background-color:rgb(243, 236, 236) ;
+    margin-bottom: 20px;
+  }
+  .image1 {
+    margin: 0px;
+    width: 80%;
+    height: 80%;
+  }
+  .image2 {
+    margin: 0px;
+    width: 80%;
+    height: 80%;
+  }
+  .image3 {
+    margin: 0px;
+    width: 80%;
+    height: 80%;
+  }
+  .content-img{
+    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+    padding: 50px;
+    margin: 0px;
+  }
+  .projet{
+    text-align: center;
+    font: size 20px;
+  }
+   .image p {
+    margin: 2px;
+  }
+ .skill{
+  text-align: center;
+  margin-bottom: 35px;
+ 
+ }
+ .icones {
+  grid-template-columns: repeat(3, 1fr);
+    display: grid;
+    padding: 50px;
+ display: flex;
+ align-items: center;
+  justify-content: center;
+  margin: 10px;
+ }
+ 
+ .skills {
+  width: 30%;
+  height: 30%;
+margin: 20px;
+ }
+ .skill p{
+  margin : 20px;
+  font: size 20px;
+ }
+ .tools{
+  text-align:center;
+
+ }
+ .outils{
+  width: 130px;
+  height: 130px;
+  margin-left: 13px;
+  display: flex;
+ }
+ .form-style {
+  margin:10px auto;
+  width: 400px;
+  padding: 20px 12px 10px 20px;
+  font: 24px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.form-style label{
+  margin:0 0 3px 0;
+  padding:0px;
+  font-weight: bold;
+  font-size: 23px;
+  
+}
+.form-style .required{
+  color:red;
+}
+.form-style input[type=submit], .form-style input[type=reset]{
+  background: rgb(157, 238, 247);
+  padding: 8px 15px 8px 15px;
+  border: none;
+  color:white;
+}
+.form-style input[type=submit]:hover, .form-style input[type=reset]:hover{
+  background:rgb(112, 190, 241);
+  box-shadow:none;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+}
+.form-style .field-textarea{
+  height: 100px;
+}
+.form-style input[type=text], 
+.form-style input[type=email],
+textarea{
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  border: 1px solid rgb(169, 165, 165);
+  padding:0px;}
+  
+.input{
+  font-size: 20px;
+  display: flex;
+}
+  .inf{
+    background-color:  rgb(170, 160, 248);
+  }
+  .inf h3{
+    text-align: center;
+    margin-right: 13px;
+  font-size: 30px;
+  }
+  .contacts{
+    display: inline-block;
+    margin-left: 20%;
+   
+  }
+  .address{
+    margin-right: 20%;
+  }
+  .content-contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+ 
+.footer{
+  font-size: 13px;
+  margin-top: 50px;
+  text-align: center;
+}
